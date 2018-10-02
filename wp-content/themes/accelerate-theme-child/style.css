@@ -59,6 +59,39 @@ aside.case-study-sidebar {
   width: 40%;
   padding-right: 4em;
 }
+ul.social-media-menu {
+  display: flex;
+  list-style: none;
+}
+#menu-social-media-nav li {
+  padding: 0 2px 0 2px;
+}
+/*
+Styling all field labels
+*/
+.field-wrap label {
+  font-size: .8em;
+}
+.contact_us .main-content {
+  padding: 0 0 0 0;
+}
+div.submit-wrap {
+  float: right;
+}
+input.teal {
+  background-color: #45ab9d;
+}
+div.nf-form-cont {
+  padding-top: 2em;
+}
+.contact_us div.site-content {
+  width: 35%;
+}
+.about-bg {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background-position: top;
+  margin: 0 0 0 0;
+}
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
